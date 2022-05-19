@@ -26,28 +26,24 @@
                 android:background="@color/black" />
 
             <androidx.constraintlayout.motion.widget.MotionLayout
+                android:id="@+id/gatheringDigitalThingsLayout"
                 android:layout_width="480dp"
                 android:layout_height="300dp"
                 android:layout_gravity="center_horizontal"
-                app:layoutDescription="@xml/gathering_digital_things_scene"
-                >
+                app:layoutDescription="@xml/gathering_digital_things_scene">
 
                 <ImageView
+                    android:id="@+id/tvImageView"
                     android:layout_width="400dp"
                     android:layout_height="250dp"
-                    android:src="@drawable/ic_tv"
                     android:scaleType="centerCrop"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/ic_tv"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    />
-
-
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
             </androidx.constraintlayout.motion.widget.MotionLayout>
-
-
         </LinearLayout>
 
     </ScrollView>
