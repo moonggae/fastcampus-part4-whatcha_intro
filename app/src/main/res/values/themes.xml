@@ -14,4 +14,10 @@
         <!-- Customize your theme here. -->
         <item name="android:windowLightStatusBar">true</item>
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.Aoppart4chapter04">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/black</item>
+
+    </style>
 </resources>
